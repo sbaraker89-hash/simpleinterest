@@ -1,7 +1,10 @@
-principal = float(input("Enter the principal amount: "))
-rate = float(input("Enter the annual interest rate (%): "))
-time = float(input("Enter the time in years: "))
+principal = 10000
+rate = 5
+time = 2
 
-simple_interest = principal * rate * time / 100
+si = (principal * rate * time) / 100
 
-print(f"Simple interest: {simple_interest:.2f}")
+print("Principal amount:", principal)
+print("Rate of interest:", rate)
+print("Time:", time)
+print("Simple Interest:", si)
